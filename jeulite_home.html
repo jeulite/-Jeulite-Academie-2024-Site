@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fab Academy 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .logo svg {
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            padding: 5px;
+            margin-right: 5px;
+        }
+        .icon-container {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="#000" stroke-width="2"/>
+            <path d="M50,10 A40,40 0 0,1 90,50 L50,50 Z" fill="#ff0000"/>
+            <path d="M50,50 A40,40 0 0,1 10,50 L50,50 Z" fill="#00ff00"/>
+            <path d="M50,90 A40,40 0 0,1 50,10 L50,50 Z" fill="#0000ff"/>
+        </svg>
+    </div>
+    <h1>The Fab Academy 2024</h1>
+    <nav>
+        <a href="#">Schedule</a>
+        <a href="#">Labs</a>
+        <a href="#">Students</a>
+        <a href="#">Presentations</a>
+        <a href="#">Documents</a>
+        <a href="#">Projects</a>
+        <a href="#">Highlights</a>
+        <a href="#">Prior Years</a>
+    </nav>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search">
+        <img src="/api/placeholder/20/20" alt="Search" />
+    </div>
+    <div class="icon-container">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+    </div>
+</body>
+</html>
